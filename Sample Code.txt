@@ -1,8 +1,13 @@
 
-/**********Sample Codes for APP**********/ 
+                /**********Sample Codes for APP**********/ 
 
 
-1)Requesting API call for dealers crop information
+
+
+
+
+
+     /**********Requesting API call for dealers crop information**********/ 
 
 
     val textView = findViewById<TextView>(R.id.text)
@@ -15,7 +20,12 @@
 
 
 
-/********** Request a string response from the provided URL.**********/
+
+
+
+      /********** Request a string response from the provided URL.**********/
+
+
     val stringRequest = StringRequest(Request.Method.GET, url,
         Response.Listener<String> { 
     response ->textView.text = "Response is: ${response.substring(0, 500)}"
@@ -31,7 +41,9 @@
 
 
 
- /**********Code for Backend connection of database**********/
+         /**********Code for Backend connection of database**********/
+
+
 
     $host="localhost";
     $user="root";
@@ -66,7 +78,9 @@
 
 
 
-/**********Sample code for Dealers Login Page**********/ 
+
+
+            /**********Sample code for Dealers Login Page**********/ 
 
     <!DOCTYPE html>
     <html>
@@ -215,7 +229,11 @@
 
 
 
-/**********5)Plugins Code**********/
+
+
+
+
+                      /**********5)Plugins Code**********/
 
 
     Farmers Application Main Page  Code 
@@ -357,10 +375,16 @@
 
 
 
-/**********Android Login Page**********/ 
 
 
-  /*****Layout Frame*****/
+
+
+              /**********Android Login Page**********/ 
+
+
+                       /*****Layout Frame*****/
+
+
    <EditText
       android:id = "@+id/editText2"
       android:layout_width = "wrap_content"
@@ -376,7 +400,9 @@
 
 
 
-  /*****Main Activity*****/
+                      /*****Main Activity*****/
+
+
    public class MainActivity extends Activity  {
       Button b1,b2;
       EditText ed1,ed2;
