@@ -17,3 +17,6 @@ Usage: By using AgroAlly , the farmer can easily know the details of the crop pr
 //Application source code consist of source code (Android  Application Studio)
 
 
+Sorry for the inconvenience  Since Git doesn't support large files video is uploaded in drive and the link is provided in the text file "Drive Link For Application Video "
+
+
